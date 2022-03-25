@@ -56,7 +56,7 @@ public class MessageController {
             }
         }
         model.addAttribute("conversations", conversations);
-
+        return "test";
     }
 
 }
