@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Deprecated // 声明该组件不推荐使用
 public interface LoginTicketMapper {
 
     @Insert({
